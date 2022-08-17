@@ -28,6 +28,6 @@ workflows:
             attach-workspace: false 
             checkout: true 
             executor-class: small 
-            dockerfiles: ~/project/app/deploy.Dockerfile 
+            dockerfiles: Dockerfile 
 
 
