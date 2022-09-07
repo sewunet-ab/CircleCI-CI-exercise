@@ -18,3 +18,5 @@ workflows:
   example-workflow:
     jobs:
       - example-job
+      - docker/publish:
+            image: sewunet/my-simplenode:latest 
